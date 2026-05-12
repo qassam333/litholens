@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-deep: #060A08;
+  --bg-base: #0A0F0C;
+  --bg-card: #111714;
+  --bg-elevated: #1A2520;
+  --border: #1E2520;
+  --border-light: #2A3528;
+  --text-primary: #F0E8D8;
+  --text-secondary: #B8B0A0;
+  --text-muted: #6A7A6E;
+  --text-dim: #3A4A3E;
+  --gold: #C8A96E;
+  --gold-dark: #A07840;
+  --green: #7B9E87;
+  --green-dark: #4A6B54;
+  --red: #C86E6E;
+  --success: #4CAF50;
+  --warning: #FF9800;
+  --danger: #F44336;
+  --font: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* ======== KEYFRAME ANIMATIONS ======== */
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes progress {
+  0% { width: 0%; opacity: 0.6; }
+  50% { width: 80%; opacity: 1; }
+  100% { width: 100%; opacity: 0.6; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(200, 169, 110, 0.15); }
+  50% { box-shadow: 0 0 24px rgba(200, 169, 110, 0.3); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes ripple {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
