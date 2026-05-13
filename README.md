@@ -10,6 +10,8 @@ LithoLens uses a custom-trained neural network (exported to ONNX) that runs **on
 
 ## 🚀 Live Demo
 
+https://litholens.vercel.app/
+
 ---
 
 ## ✨ Key Features
