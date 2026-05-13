@@ -1,104 +1,100 @@
-﻿label,name_english,name_arabic,category,hardness_moh,luster,streak_color,cleavage,fracture,primary_color,acid_reaction,common_locations,description_for_ai
-graphite,Graphite,جرافيت,Mineral,1.0-2, dull/ Metallic,dark gray / black,perfect,uneven,Black / Gray,No,Metamorphic rocks,"هذا معدن الجرافيت، صلادته 1.0-2، لمعانه باهت/فلزي، مخدشه رمادي غامق/أسود، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-gold,Gold,ذهب,Mineral,"2.5,3",Metallic,golden-yelllow,none,Hackly,yellow,no,,"هذا معدن الذهب، صلادته 2.5-3، لمعانه فلزي، مخدشه أصفر ذهبي، ليس له انفصام، ومكسره متسنن، لا يتفاعل مع حمض HCl."
-silver,Silver,فضة,Mineral,2.5-3,Metallic,silvery white,none,Hackly,silver,no,,"هذا معدن الفضة، صلادته 2.5-3، لمعانه فلزي، مخدشه أبيض فضي، ليس له انفصام، ومكسره متسنن، لا يتفاعل مع حمض HCl."
-antimonite,Antimonite,انتيمونايت,Mineral,3-3.5,Metallic,pale silvery with gray,perfect,uneven ,gray ,,,"هذا معدن الانتيمونايت، صلادته 3-3.5، لمعانه فلزي، مخدشه رمادي، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-copper,Copper,نحاس,Mineral,2.5-3,Metallic,copper-red,none,Hackly,copper red,,,"هذا معدن النحاس، صلادته 2.5-3، لمعانه فلزي، مخدشه أحمر نحاسي، ليس له انفصام، ومكسره متسنن، لا يتفاعل مع حمض HCl."
-sulfur,Sulfur,كبريت,Mineral,1.5-2.2,waxy,white,imperfect,uneven to conchoidal,yellow,,,"هذا معدن الكبريت، صلادته 1.5-2.2، لمعانه شمعي، مخدشه أبيض، لديه انفصام غير تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-hematite,Hematite,هيماتيت,Mineral,5.0-6.0,Metallic,Red,none,uneven to sub-conchoidal,brown,,,"هذا معدن الهيماتيت، صلادته 5.0-6.0، لمعانه فلزي، مخدشه أحمر، ليس له انفصام، ومكسره غير مستوٍ إلى شبه محاري، لا يتفاعل مع حمض HCl."
-chalcedony,Chalcedony,كالسيدوني,Mineral,6.5-7,"waxy,dull",white,none,cochoidal,"white,blue,red,green,brown,black",,,
-cassiterite,Cassiterite,كاسيتريت,Mineral,6.0-7.1,greasy, white -gray-brownish,poor,uneven to sub-conchoidal,brown to black,,,"هذا معدن الكاسيتريت، صلادته 6.0-7.1، لمعانه دهني، مخدشه أبيض إلى بني، انفصامه ضعيف، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-quartz,Quartz,كوارتز,Mineral,7,vitreous,white,none,conchoidal,"white,purple,yellow",,,"هذا معدن الكوارتز، صلادته 7، لمعانه زجاجي، مخدشه أبيض، ليس له انفصام، ومكسره محاري، لا يتفاعل مع حمض HCl."
-oligoclase,Oligoclase,اوليغوكليز,Mineral,6.0-6.5,vitreous,white,perfect,uneven to conchoidal,"gray,white,greenish,yellowish,brown",,,"هذا معدن الاوليغوكليز، صلادته 6.0-6.5، لمعانه زجاجي، مخدشه أبيض، لديه انفصام تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-microcline,Microcline,مايكروكلين,Mineral,,,,,,"gray,white,yellowish,reddish,pink",,,
-bournonite,Bournonite,بورنونايت,Mineral,2.5-3,Metallic,gray- black,imperfect,uneven to sub-conchoidal,steel gray to black,,,"هذا معدن البورنونايت، صلادته 2.5-3، لمعانه فلزي، مخدشه رمادي إلى أسود، انفصامه غير تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-pyrargyrite,Pyrargyrite,بيرارحيريت,Mineral,2.5,sub-metallic,dark red,distinct rhombohedral,uneven to conchoidal,dark red to black,,,"هذا معدن البيرارحيريت، صلادته 2.5، لمعانه شبه فلزي، مخدشه أحمر داكن، لديه انفصام معين أوجه واضح، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-marcasite,Marcasite,ماوكازايت,Mineral,6-6.5,Metallic,greenish-black,distinct ,uneven,brassy yellow,,,"هذا معدن الماركسيت، صلادته 6-6.5، لمعانه فلزي، مخدشه أسود مخضر، لديه انفصام واضح، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-amethyst,Amethyst,اميفيست,Mineral,7,Metallic,white,none,conchoidal,purple,,,"هذا معدن الاميفيست، صلادته 7، لمعانه فلزي، مخدشه أبيض، ليس له انفصام، ومكسره محاري، لا يتفاعل مع حمض HCl."
-arsenopyrite,Arsenopyrite,أرسينوبيريت,Mineral,5.5-6,Metallic,black to gray,indistinct,uneven,silvery white,,,"هذا معدن الأرسينوبيريت، صلادته 5.5-6، لمعانه فلزي، مخدشه أسود إلى رمادي، انفصامه غير واضح، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-cobaltin,Cobaltin,كوبالتين,Mineral,5.5,Metallic,grayish-black,perfect,uneven,grayish black,,,"هذا معدن الكوبالتين، صلادته 5.5، لمعانه فلزي، مخدشه أسود رمادي، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-arsenic,Arsenic,الزرنيخ,Mineral,3.5,Metallic,pale gray,perfect,uneven,pale gray and darck gray ,,,"هذا معدن الزرنيخ، صلادته 3.5، لمعانه فلزي، مخدشه رمادي شاحب، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-pyrite,Pyrite,بايريت,Mineral,6-6.5,Metallic,greenish-black,indistinct,uneven to conchoidal,pale yellow,,,"هذا معدن البايريت، صلادته 6-6.5، لمعانه فلزي، مخدشه أسود مخضر، انفصامه غير واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-hornblende,Hornblende,هورنبليند,Mineral,6,vitreous,gray or white,perfect,uneven,green,,,"هذا معدن الهورنبليند، صلادته 6، لمعانه زجاجي، مخدشه رمادي أو أبيض، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-amazonite,Amazonite,أمازونيت,Mineral,,,,,,,,,"هذا معدن الكروميت، صلادته 5.5، لمعانه فلزي، مخدشه بني داكن، ليس له انفصام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-chromite,Chromite,كروميت,Mineral,5.5,Metallic,dark brown,none,uneven,black to brownish black,,,"هذا معدن الأوبال، صلادته 5.5-6.5، لمعانه زجاجي، مخدشه أبيض، ليس له انفصام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-opal,Opal,أوبال,Mineral,5.5-6.5,vitreous,white,none,uneven to conchoidal,milky white or black with  a brilliant interplay of colors,,,"هذا معدن البزموت، صلادته 2-2.5، لمعانه فلزي، مخدشه أبيض فضي، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-bismuth,Bismuth,بزموت,Mineral,2-2.5,Metallic,silvery white,perfect,uneven,silvery white,,,"هذا معدن التيتراهيدريت، صلادته 3-4.5، لمعانه فلزي، مخدشه أسود أو بني، ليس له انفصام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-tetrahedrite,Tetrahedrite,تيتراهيدريت,Mineral,3-4.5,Metallic,"black,brown,red",none,uneven to sub-conchoidal,silvery,,,"هذا معدن الماجنيتيت، صلادته 5.5-6.5، لمعانه فلزي أو باهت، مخدشه أسود، ليس له انفصام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-magnetite,Magnetite,ماجنيتيت,Mineral,5.5-6.5,Metallic or dull,black,none,uneven to sub-conchoidal,black,,,"هذا معدن الكريسوبيريل، صلادته 8.5، لمعانه زجاجي، مخدشه أبيض، لديه انفصام واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-chrysoberyl,Chrysoberyl,كريسوبيريل,Mineral,8.5,vitreous,white,distinct ,uneven to conchoidal,"green,yellow,brownish,gray",,,"هذا معدن التوباز، صلادته 8، لمعانه زجاجي، مخدشه عديم اللون، لديه انفصام تام، ومكسره غير مستوٍ إلى شبه محاري، لا يتفاعل مع حمض HCl."
-topaz,Topaz,توباز,Mineral,8,vitreous,colorless,perfect,uneven to sub-conchoidal,"white,colorless,gray,yellow,orange,brown,greenish,purple,pink,bluish",,,"هذا معدن السينار، صلادته 2.5، لمعانه شبه فلزي أو باهت، مخدشه قرمزي، لديه انفصام تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-cinnabar,Cinnabar,سينار ,Mineral,2.5,sub-metallic or dull,scarlet,perfect,uneven to conchoidal,brownish red or scarlet,,,"هذا معدن البيريل، صلادته 7.5-8، لمعانه زجاجي، مخدشه أبيض، انفصامه غير واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-beryl,Beryl,بيريل,Mineral,7.5-8,vitreous,white,indistinct,uneven to conchoidal,"colorless,white,green,yellow,pink,red,blue",,,"هذا معدن اللابرادوريت، صلادته 6-6.5، لمعانه زجاجي، مخدشه أبيض، لديه انفصام تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-labradorite,Labradorite,لابرادوريت,Mineral,6-6.5,vitreous,white,perfect,uneven to conchoidal,"blue,gray,green,white,colorless",,,"هذا معدن الجبس، صلادته 2، لمعانه زجاجي، مخدشه أبيض، لديه انفصام تام، ومكسره شظوي، لا يتفاعل مع حمض HCl."
-gypsum,Gypsum,جبس,Mineral,2,vitreous,white,perfect,splintery,"colorless,white,gray,greenish,yellowish,brownish,reddish",,,"هذا معدن البروستيت، صلادته 2-2.5، لمعانه ماسي إلى شبه فلزي، مخدشه قرمزي، لديه انفصام معين أوجه واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-proustite,Proustite,بروستيت,Mineral,2-2.5,adamantine to submetallic,scarlet,distinct rhombohedral,uneven to conchoidal,rich scarlet,,,"هذا معدن السبودومين، صلادته 6.5-7، لمعانه زجاجي إلى باهت، مخدشه أبيض، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
-spodumene,Spodumene,سبودومين,Mineral,6.5-7,vitreous to dull,white,perfect,uneven,"colorless,white,gray,yellowish,greenish,pink,lilac",,,"هذا معدن الأوجيت، صلادته 5.5-6، لمعانه زجاجي إلى باهت، مخدشه أخضر رمادي أو بني، انفصامه جيد، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-jasper,Jasper,جاسبر ,Mineral,,,,,,,,,"هذا معدن السبينيل، صلادته 7.5-8، لمعانه زجاجي، مخدشه أبيض، ليس له انفصام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
-augite,Augite,أوجيت,Mineral,5.5-6,vitreous to dull,grayish-green or brownish,good,uneven to conchoidal,"brownish,greenish,black",,,"هذا معدن الأندالوسيت، صلادته 6.5-7.5، لمعانه زجاجي، مخدشه عديم اللون، لديه انفصام منشوري واضح، ومكسره غير مستوٍ إلى شبه محاري، لا يتفاعل مع حمض HCl."
-agate,Agate,عقيق,Mineral,,,,,,,,,
-spinel,Spinel,سبينيل,Mineral,7.5-8,vitreous,white,none,uneven to conchoidal,"red ,green,blue,brown,black",,,
-andalusite,Andalusite,أندالوسيت,Mineral,6.5-7.5,vitreous,colorless,distinct prismatic,uneven to sub-conchoidal,"pink,reddish,brownish,whitish,grayish,greenish",,,
-flint,Flint,صوان,Mineral,,,,,,,,,
-pollucite,Pollucite,بولوسيت,Mineral,,,,,,,,,
-cuprite,Cuprite,كوبريت,Mineral,3.5-5,earthy ,brownish red,poor,uneven to conchoidal,"red ,green,blue,brown,black",,,
-hedenbergite,Hedenbergite,هيدينبيرجيت,Mineral,5.5-6.5,vitreous to dull,white or gray,good,uneven to conchoidal,"brownish,grayish,greenish,dark green,black",,,
-ilmenite,Ilmenite,إلمينيت,Mineral,5.0-6.0,Metallic to dull,black to brownish-red,none,uneven to conchoidal,"black,brownish black",,,
-carnelian,Carnelian,كارنيليان (عقيق أحمر),Mineral,,,,,,,,,
-actinolite,Actinolite,أكتينوليت,Mineral,5.0-6.0,vitreous,white ,good,splintery,light to blackish green,,,
-chrysoprase,Chrysoprase,كريسوبريس,Mineral,,,,,,,,,
-diopside,Diopside,ديوبسيد,Mineral,5.5-6.5,vitreous to dull,white ,good,uneven to conchoidal,"colorless,white,gray,green,greenish black",,,
-tremolite,Tremolite,تريموليت,Mineral,,,,,,,,,
-albite,Albite,ألبيت,Mineral,6-6.5,vitreous to pearly,white,perfect,uneven to conchoidal,"colorless,(may be bluish,gray,greenish or reddish)",,,
-rutile,Rutile,روتيل,Mineral,6-6.5,sub-metallic to adamantine,pale brown to yellowish ,distinct ,uneven to conchoidal,"reddish brown,red,yellow,black",,,
-zircon,Zircon,زركون,Mineral,7.5,"vitreous,adamantine or greasy",colorless,imperfect,uneven to conchoidal,"colorless,red,brown,green,gray,",,,
-corundum,Corundum,كوروندوم,Mineral,9,vitreous to adamantine,white,none,uneven to conchoidal,many color,,,
-celestine,Celestine,سيليستين,Mineral,3-3.5,vitreous,white,perfect,uneven,"colorless,white,gray,blue,yellpwish,orange,reddish,brown",,,
-malachite,Malachite,ملاكيت ,Mineral,3.5-4,fibrous(silky)/no crystal face(vitreous to adamantine),pale green,perfect,uneven to sub-conchoidal,green,,,
-nephrite,Nephrite,نيفريت,Mineral,,,,,,,,,
-sphalerite,Sphalerite,سفاليريت,Mineral,3.5-4,resinous to adamantine,pale brown to colorless,perfect,cochoidal,"black,brown,yellow,red,green,gray,white",,,
-wollastonite,Wollastonite,ولاستونيت,Mineral,4.5-5,vitreous to pearly,white,perfect,uneven,"white,grayish,pale green,colorless",,,
-limonite,Limonite,ليمونيت,Mineral,4-5.5,"dull, earthy ",yellow-brown,none,uneven,"yellow,brown.blackish",,,
-rhodonite,Rhodonite,رودونيت,Mineral,5.5-6.5,crystal face(vitreous)/cleavage(pearly),white,perfect,uneven to conchoidal,"pink,rose red,brownish red",,,
-fluorite,Fluorite,فلوريت,Mineral,4,vitreous,white,perfect,cochoidal,"purple,green,colorless,white,yellow,pink,red,blue,black",,,
-orthoclase,Orthoclase,أورثوكليز,Mineral,6,vitreous to pearly,white,perfect,uneven to conchoidal,"reddish,colorless,yellow,gray,green",,,
-aragonite,Aragonite,أراغونيت,Mineral,3.5-4,resinous to vitreous,white,distinct ,subconchoidal,"white,colorless,gray,yellowish,green,blue,violet",,,
-dolomite,Dolomite,دولوميت,Mineral,3.5-4,vitreous to pearly,white,perfect,subconchoidal,"colorless,white,gray,pink,brown",,,
-pectolite,Pectolite,بكتوليت,Mineral,4.5-5,vitreous or silky,white,perfect,uneven,"white ,grayish,colorless",,,
-grossular garnet,Grossular garnet,غارنيت جروسولار,Mineral,6.5-7,resinous to vitreous,white,none,uneven to conchoidal,"green,yellowish,brown,red,orange,pink,gray,black",,,
-tourmaline,Tourmaline,تورمالين,Mineral,7,vitreous,colorless,very indistinct,uneven to conchoidal,"black,brown,green,pink,yellow",,,
-apatite,Apatite,أباتيت,Mineral,5,vitreous to subresinous ,white,poor,uneven to conchoidal,"green,white,colorless,yellowish,bluish,reddish,brown,gray,purple",,,
-kyanite,Kyanite,كاينيت,Mineral,5.5-7,vitreous / on cleavege surface(pearly),colorless,perfect,uneven,"blue,white,gray,green,yellow,pink,black",,,
-cancrinite,Cancrinite,كانكرينيت,Mineral,5.0-6.0,"vitreous,pearly,greasy",colorless,perfect,uneven,"white,yellow,orange,pink,reddish,bluish",,,
-andradite,Andradite,أندراديت,Mineral,,,,,,,,,
-almandine garnet,Almandine garnet,ألماندين غارنت ,Mineral,7-7.5,resinous to vitreous,white,none,uneven to conchoidal,"deep red,reddish brown,brownish black",,,
-barite,Barite,باريت,Mineral,3,resinous to vitreous,white,perfect,uneven,"colorless,white,gray,brown,reddish,bluish,greemish",,,
-galena,Galena,جالينا,Mineral,2.5,metallic,gray, perfect cubic,subconchoidal,gray,,,
-muscovite,Muscovite,موسكوفيت,Mineral,2.5,vitreous to pearly,white,perfect,uneven,"colorless,white, gray,yellow",,,
-calcite,Calcite,كالسيت,Mineral,3,vitreous to pearly,white,perfect,subconchoidal,"colorless,gray,brown,",,,
-aegirine,Aegirine,أوجيرين,Mineral,6,vitreous,yellowish gray,good,uneven,"green,greenish black,bkack,reddish brown",,,
-eudialyte,Eudialyte,يودياليت,Mineral,5.0-6.0,vitreous to dull,white to pale pink,perfect,uneven,"yellowish,brownish,red,pink",,,
-azurite,Azurite,أزوريت,Mineral,3.5-4,vitreous to dull,paler blue,perfect,cochoidal,deep blue,,,
-goethite,Goethite,جيوثايت,Mineral,5-5.5, crystal face (adamantine )/otherwise(dull),orange to brownish,perfect,uneven,"blackish brown,reddish,yellowish brown",,,
-epidote,Epidote,إيبيدوت,Mineral,6,vitreous,colorless,perfect,uneven,"yellowish green, green, brownish green,greenish black",,,
-lapis lazuli,Lapis Lazuli,لازورد,Mineral,,,,,,,,,
-scheelite,Scheelite,شيليت,Mineral,,,,,,,,,
-vesuvian,Vesuvian,فيزوفيان,Mineral,,,,,,,,,
-chalcopyrite,Chalcopyrite,كالكوبيريت,Mineral,3.5-4,metallic,greenish black,poor,uneven to conchoidal,brassy yellow,,,
-analcime,Analcime,أنالسيم,Mineral,5-5.5,vitreous,white,very poor,subconchoidal,"colorless,gray,pink,yellow,greenish",,,
-natrolite,Natrolite,ناتروليت,Mineral,6.5,resinous to vitreous,white,indistinct,uneven to conchoidal,"green,brown,red,white,yellow,purple",,,
-amber,Amber,كهرمان,Mineral,,,,,,,,,
-molybdenite,Molybdenite,موليبدينيت,Mineral,1-1.5,metallic,gray,perfect,uneven,gray,,,
-pyrrhotite,Pyrrhotite,بيروتيت,Mineral,3.5-4.5,metallic,dark to black,none,uneven to sub-conchoidal,bronze red ,,,
-prehnite,Prehnite,بريهنيت,Mineral,6-6.5,vitreous tp waxy,white,distinct ,uneven,"light green,colorless,white,gray",,,
-siderite,Siderite,سيديريت,Mineral,4,"vitreous,pearly,silky",white,perfect rhombohedral,uneven,"gray,brown,greenish,reddish,black ",,,
-creedit,Creedit,كريدت,Mineral,3.5-4,vitreous,white,perfect,cochoidal,"colorless,white,violite,purple,orange",,,
-vivianite,Vivianite,فيفيانيت,Mineral,,,,,,,,,
-titanite,Titanite,تيتانيت,Mineral,5-5.5,resinous to subadamantine,white,distinct ,uneven to sub-conchoidal,"green,brown,gray,reddish",,,
-elbaite,Elbaite,إلبيت,Mineral,7-7.5,resinous to vitreous,white,indistinct,uneven to conchoidal,"red,pink,blue,yellow",,,
-fluorapatite,Fluorapatite,فلورأباتيت,Mineral,5,vitreous,white,poor,uneven,"white,green,blue,brown",,,
-garnet,Garnet,غارنيت,Mineral,6.5-7,vitreous,white,none,cochoidal to subconchoidal,"deep red,green,yellow,brown,black ",,,
-halite,Halite,هاليت (ملح صخري),Mineral,2,vitreous,white,perfect,uneven to conchoidal,"white,colorless,orange",,,
-talc,Talc,تالك,Mineral,1,"resinous to pearly, grwasy",white,perfect,uneven,"pale to dark green,gray,brownish,white",,,
-olivine,Olivine,أوليفين (زبرجد زيتوني),Mineral,6.5-7,vitreous,colorless,imperfect,cochoidal,"green,yellowish green",,,
-kaolinite,Kaolinite,كاولينيت,Mineral,2-2.5,dull or earthy,white,perfect,uneven,"white,colorless to yellowish,brownish",,,
+﻿label,name_english,name_arabic,category,hardness_moh,luster,streak_color,cleavage,fracture,primary_color,acid_reaction,description_for_ai
+graphite,Graphite,جرافيت,Mineral,1.0-2, dull/ Metallic,dark gray / black,perfect,uneven,Black / Gray,No,"هذا معدن الجرافيت، صلادته 1.0-2، لمعانه باهت/فلزي، مخدشه رمادي غامق/أسود، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+gold,Gold,ذهب,Mineral,"2.5,3",Metallic,golden-yelllow,none,Hackly,yellow,No,"هذا معدن الذهب، صلادته 2.5-3، لمعانه فلزي، مخدشه أصفر ذهبي، ليس له انفصام، ومكسره متسنن، لا يتفاعل مع حمض HCl."
+silver,Silver,فضة,Mineral,2.5-3,Metallic,silvery white,none,Hackly,silver,No,"هذا معدن الفضة، صلادته 2.5-3، لمعانه فلزي، مخدشه أبيض فضي، ليس له انفصام، ومكسره متسنن، لا يتفاعل مع حمض HCl."
+antimonite,Antimonite,انتيمونايت,Mineral,3-3.5,Metallic,pale silvery with gray,perfect,uneven ,gray ,No,"هذا معدن الانتيمونايت، صلادته 3-3.5، لمعانه فلزي، مخدشه رمادي، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+copper,Copper,نحاس,Mineral,2.5-3,Metallic,copper-red,none,Hackly,copper red,No,"هذا معدن النحاس، صلادته 2.5-3، لمعانه فلزي، مخدشه أحمر نحاسي، ليس له انفصام، ومكسره متسنن، لا يتفاعل مع حمض HCl."
+sulfur,Sulfur,كبريت,Mineral,1.5-2.2,waxy,white,imperfect,uneven to conchoidal,yellow,No,"هذا معدن الكبريت، صلادته 1.5-2.2، لمعانه شمعي، مخدشه أبيض، لديه انفصام غير تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+hematite,Hematite,هيماتيت,Mineral,5.0-6.0,Metallic,Red,none,uneven to sub-conchoidal,brown,No,"هذا معدن الهيماتيت، صلادته 5.0-6.0، لمعانه فلزي، مخدشه أحمر، ليس له انفصام، ومكسره غير مستوٍ إلى شبه محاري، لا يتفاعل مع حمض HCl."
+chalcedony,Chalcedony,كالسيدوني,Mineral,6.5-7,"waxy,vitreous",white,none,cochoidal,"white,blue,red,green,brown,black",No,"هذا معدن الكالسيدوني أو العقيق أالابيض، صلادته 6.0-7.0، لمعانه زجاجي شمعي، مخدشه أبيض، ليس لديه انفصام، ومكسره محاري، لا يتفاعل مع حمض HCL."
+cassiterite,Cassiterite,كاسيتريت,Mineral,6.0-7.1,greasy, white -gray-brownish,poor,uneven to sub-conchoidal,brown to black,No,"هذا معدن الكاسيتريت، صلادته 6.0-7.1، لمعانه دهني، مخدشه أبيض إلى بني، انفصامه ضعيف، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+quartz,Quartz,كوارتز,Mineral,7,vitreous,white,none,conchoidal,"white,purple,yellow",No,"هذا معدن الكوارتز، صلادته 7، لمعانه زجاجي، مخدشه أبيض، ليس له انفصام، ومكسره محاري، لا يتفاعل مع حمض HCl."
+oligoclase,Oligoclase,اوليغوكليز,Mineral,6.0-6.5,vitreous,white,perfect,uneven to conchoidal,"gray,white,greenish,yellowish,brown",No,"هذا معدن الاوليغوكليز، صلادته 6.0-6.5، لمعانه زجاجي، مخدشه أبيض، لديه انفصام تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+microcline,Microcline,مايكروكلين,Mineral,6-6.5,vitreous,white,perfect,uneven to conchoidal,"gray,white,yellowish,reddish,salmone pink",No,"هذا معدن المايكروكلين، صلادته  6.0-6.5، لمعانه زجاجي، مخدشه أبيض، له انفصام كامل في اتجاهين يتقاطعان بزاوية شبه قائمة، مكسره غير مستو الى محاري، لا يتفاعل مع HCL"
+bournonite,Bournonite,بورنونايت,Mineral,2.5-3,Metallic,gray- black,imperfect,uneven to sub-conchoidal,steel gray to black,No,"هذا معدن البورنونايت، صلادته 2.5-3، لمعانه فلزي، مخدشه رمادي إلى أسود، انفصامه غير تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+pyrargyrite,Pyrargyrite,بيرارحيريت,Mineral,2.5,sub-metallic,dark red,distinct rhombohedral,uneven to conchoidal,dark red to black,No,"هذا معدن البيرارحيريت، صلادته 2.5، لمعانه شبه فلزي، مخدشه أحمر داكن، لديه انفصام معين أوجه واضح، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+marcasite,Marcasite,ماوكازايت,Mineral,6-6.5,Metallic,greenish-black,distinct ,uneven,brassy yellow,No,"هذا معدن الماركسيت، صلادته 6-6.5، لمعانه فلزي، مخدشه أسود مخضر، لديه انفصام واضح، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+amethyst,Amethyst,اميفيست,Mineral,7,Metallic,white,none,conchoidal,purple,No,"هذا معدن الاميفيست، صلادته 7، لمعانه فلزي، مخدشه أبيض، ليس له انفصام، ومكسره محاري، لا يتفاعل مع حمض HCl."
+arsenopyrite,Arsenopyrite,أرسينوبيريت,Mineral,5.5-6,Metallic,black to gray,indistinct,uneven,silvery white,No,"هذا معدن الأرسينوبيريت، صلادته 5.5-6، لمعانه فلزي، مخدشه أسود إلى رمادي، انفصامه غير واضح، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+cobaltin,Cobaltin,كوبالتين,Mineral,5.5,Metallic,grayish-black,perfect,uneven,grayish black,No,"هذا معدن الكوبالتين، صلادته 5.5، لمعانه فلزي، مخدشه أسود رمادي، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+arsenic,Arsenic,الزرنيخ,Mineral,3.5,Metallic,pale gray,perfect,uneven,pale gray and darck gray ,No,"هذا معدن الزرنيخ، صلادته 3.5، لمعانه فلزي، مخدشه رمادي شاحب، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+pyrite,Pyrite,بايريت,Mineral,6-6.5,Metallic,greenish-black,indistinct,uneven to conchoidal,pale yellow,No,"هذا معدن البايريت، صلادته 6-6.5، لمعانه فلزي، مخدشه أسود مخضر، انفصامه غير واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+hornblende,Hornblende,هورنبليند,Mineral,6,vitreous,gray or white,perfect,uneven,green,No,"هذا معدن الهورنبليند، صلادته 6، لمعانه زجاجي، مخدشه رمادي أو أبيض، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+amazonite,Amazonite,أمازونيت,Mineral,6-6.5,vitreous,white,perfect,uneven to conchoidal,green,No,"هذا معدن الأمازونايت، صلادته  6.0-6.5، لمعانه زجاجي، مخدشه ابيض، لديه انفصام تام، مكسره غير مستو الى محاري، لا يتفاعل مع HCL."
+chromite,Chromite,كروميت,Mineral,5.5,Metallic,dark brown,none,uneven,black to brownish black,No,"هذا معدن الكروميت، صلادته 5.5، لمعانه فلزي، مخدشه بني داكن، ليس له انفصام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+opal,Opal,أوبال,Mineral,5.5-6.5,vitreous,white,none,uneven to conchoidal,milky white or black with  a brilliant interplay of colors,No,"هذا معدن الأوبال، صلادته 5.5-6.5، لمعانه زجاجي، مخدشه أبيض، ليس له انفصام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+bismuth,Bismuth,بزموت,Mineral,2-2.5,Metallic,silvery white,perfect,uneven,silvery white,No,"هذا معدن البزموت، صلادته 2-2.5، لمعانه فلزي، مخدشه أبيض فضي، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+tetrahedrite,Tetrahedrite,تيتراهيدريت,Mineral,3-4.5,Metallic,"black,brown,red",none,uneven to sub-conchoidal,silvery,No,"هذا معدن التيتراهيدريت، صلادته 3-4.5، لمعانه فلزي، مخدشه أسود أو بني، ليس له انفصام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+magnetite,Magnetite,ماجنيتيت,Mineral,5.5-6.5,Metallic or dull,black,none,uneven to sub-conchoidal,black,No,"هذا معدن الماجنيتيت، صلادته 5.5-6.5، لمعانه فلزي أو باهت، مخدشه أسود، ليس له انفصام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+chrysoberyl,Chrysoberyl,كريسوبيريل,Mineral,8.5,vitreous,white,distinct ,uneven to conchoidal,"green,yellow,brownish,gray",No,"هذا معدن الكريسوبيريل، صلادته 8.5، لمعانه زجاجي، مخدشه أبيض، لديه انفصام واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+topaz,Topaz,توباز,Mineral,8,vitreous,colorless,perfect,uneven to sub-conchoidal,"white,colorless,gray,yellow,orange,brown,greenish,purple,pink,bluish",No,"هذا معدن التوباز، صلادته 8، لمعانه زجاجي، مخدشه عديم اللون، لديه انفصام تام، ومكسره غير مستوٍ إلى شبه محاري، لا يتفاعل مع حمض HCl."
+cinnabar,Cinnabar,سينار ,Mineral,2.5,sub-metallic or dull,scarlet,perfect,uneven to conchoidal,brownish red or scarlet,No,"هذا معدن السينار، صلادته 2.5، لمعانه شبه فلزي أو باهت، مخدشه قرمزي، لديه انفصام تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+beryl,Beryl,بيريل,Mineral,7.5-8,vitreous,white,indistinct,uneven to conchoidal,"colorless,white,green,yellow,pink,red,blue",No,"هذا معدن البيريل، صلادته 7.5-8، لمعانه زجاجي، مخدشه أبيض، انفصامه غير واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+labradorite,Labradorite,لابرادوريت,Mineral,6-6.5,vitreous,white,perfect,uneven to conchoidal,"blue,gray,green,white,colorless",No,"هذا معدن اللابرادوريت، صلادته 6-6.5، لمعانه زجاجي، مخدشه أبيض، لديه انفصام تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+gypsum,Gypsum,جبس,Mineral,2,vitreous,white,perfect,splintery,"colorless,white,gray,greenish,yellowish,brownish,reddish",No,"هذا معدن الجبس، صلادته 2، لمعانه زجاجي، مخدشه أبيض، لديه انفصام تام، ومكسره شظوي، لا يتفاعل مع حمض HCl."
+proustite,Proustite,بروستيت,Mineral,2-2.5,adamantine to submetallic,scarlet,distinct rhombohedral,uneven to conchoidal,rich scarlet,No,"هذا معدن البروستيت، صلادته 2-2.5، لمعانه ماسي إلى شبه فلزي، مخدشه قرمزي، لديه انفصام معين أوجه واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+spodumene,Spodumene,سبودومين,Mineral,6.5-7,vitreous to dull,white,perfect,uneven,"colorless,white,gray,yellowish,greenish,pink,lilac",No,"هذا معدن السبودومين، صلادته 6.5-7، لمعانه زجاجي إلى باهت، مخدشه أبيض، لديه انفصام تام، ومكسره غير مستوٍ، لا يتفاعل مع حمض HCl."
+jasper,Jasper,جاسبر ,Mineral,6-6.5,vitreous,white,none,cochoidal to subconchoidal,"red,yellow,brown,green",No,"هذا معدن الجاسبر، صلادته  6.0-6.5, لمعانه زجاجي، مخدشه أبيض، ليس لديه انفصام، مكسره محاري إلى شبه محاري، لا يتفاعل مع HCL"
+augite,Augite,أوجيت,Mineral,5.5-6,vitreous to dull,grayish-green or brownish,good,uneven to conchoidal,"brownish,greenish,black",No,"هذا معدن الأوجيت، صلادته 5.5-6، لمعانه زجاجي إلى باهت، مخدشه أخضر رمادي أو بني، انفصامه جيد، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+agate,Agate,عقيق,Mineral,6.5-7,"waxy,vitreous",white,none,cochoidal,"banded multicolored,earth tones (white, gray, black,brown,) red, orange and yellow. Rare (green,blue,purple,pink)",No,"هذا معدن العقيق, صلادته 6.0-7.0, لمعانه شمعي وعند الصقل زجاجي، مخدشه أبيض، ليس لديه انفصام، مكسره محاري، لا يتفاعل مع HCL"
+spinel,Spinel,سبينيل,Mineral,7.5-8,vitreous,white,none,uneven to conchoidal,"red,pink,blue,purple,orange,gray,black",No,"هذا معدن السبينيل، صلادته 7.5-8، لمعانه زجاجي، مخدشه أبيض، ليس له انفصام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+andalusite,Andalusite,أندالوسيت,Mineral,6.5-7.5,vitreous,colorless,distinct prismatic,uneven to sub-conchoidal,"pink,reddish,brownish,whitish,grayish,greenish",No,"هذا معدن الأندالوسيت، صلادته 6.5-7.5، لمعانه زجاجي، مخدشه عديم اللون، لديه انفصام منشوري واضح، ومكسره غير مستوٍ إلى شبه محاري، لا يتفاعل مع حمض HCl."
+flint,Flint,صوان,Rock,6.5-7,waxy or dull,white,none,cochoidal to subconchoidal,"gray,black,brown,red,white",No,"هذا معدن الصوان، صلادته 6.0-7, لمعانه شمعي باهت، مخدشه أبيض، ليس لديه انفصام، مكسره محاري لشبه محاري، لا يتفاعل مع HCL."
+pollucite,Pollucite,بولوسيت,Mineral,6.5-7,"waxy,vitreous",white,none,uneven to conchoidal,"colorless,white, light gray, light pink, light blue",No,"هذا معدن البوليسيت، صلادته 6.5-7, لمعانه شمعي إلى زجاهي، مخدشه أبيض، ليس لديه انفصام، مكسره غير مستو إلى محاري، لا يتفاعل مع HCL"
+cuprite,Cuprite,كوبريت,Mineral,3.5-5,earthy ,brownish red,poor,uneven to conchoidal,"red ,green,blue,brown,black",No,"هذا معدن الكوبريت، صلاته 3.5-5, لمعانه ترابي، مخدشه بني محمر، انفصامه ضعيف، مكسره غير مستو إلى محاري لا يتفاعل مع HCL."
+hedenbergite,Hedenbergite,هيدينبيرجيت,Mineral,5.5-6.5,vitreous to dull,white or gray,good,uneven to conchoidal,"brownish,grayish,greenish,dark green,black or brown",No,"هذا معدن الهيدينبيرجيت صلادته 5.5-6.5 لمعانه زجاجي مطفي، محدشه أبيض إلى رمادي، لديه انفصام جيد، مكسره غير مستو إلى محاري، لا يتفاعل مع HCL."
+ilmenite,Ilmenite,إلمينيت,Mineral,5.0-6.0,Metallic to dull,black to brownish-red,none,uneven to conchoidal,"black,brownish black",No,"هذا معدن الإلمينيت، صلادته 5-6, لمعانه معدني مطفي، مخدشه أسود إلى بني محمر، ليس لديه انفصام، مكسره غير مستو إلى محاري، لا يتفاعل مع HCL."
+carnelian,Carnelian,كارنيليان (عقيق أحمر),Mineral,6.5-7,vitreous to waxy,white ,none,uneven to conchoidal,redish-orange,No,"هذا معدن العقيق الأحمر الكارنيليان، صلادته 6.5-7،لمعانه زجاجي إلى شمعي، مخدشه أبيض، ليس لديه انفصام، مكسره غير مستو إلى محاري، لا يتفاعل مع HCL."
+actinolite,Actinolite,أكتينوليت,Mineral,5.0-6.0,vitreous,white ,good,splintery,light to blackish green,No,"هذا معدن الأكتينوليت، صلادته 5-6، لمعانه زجاجي، مخدشه أبيض، لديه انفصام جيد، مكسره متشظ يتفطر كالخشب، لا يتفاعل مع HCL."
+diopside,Diopside,ديوبسيد,Mineral,5.5-6.5,vitreous to dull,white ,good,uneven to conchoidal,"colorless,white,gray,green,greenish black",No,"هذا معدن الديوبسيد، صلادته 5.5-6.5، لمعانه زجاجي مطفي، مخدشه أبيض، لديه انفصام جيد، مكسره غير مستو إلى محاري، لا يتفاعل مع HCL."
+tremolite,Tremolite,تريموليت,Mineral,5.0-6.0,vitreous or silky,white,perfect,splintery,"white,brown,colorless,gray,light green,green,light yellow,pink-violet",No,"هذا معدن التريموليت، صلادته  5-6، لمعانه زجاجي حريري، مخدشه أبيض، لديه انفصام تام،  مكسره متشظ يتفطر كالخشب، لا يتفاعل مع HCL."
+albite,Albite,ألبيت,Mineral,6-6.5,vitreous to pearly,white,perfect,uneven to conchoidal,"colorless,(may be bluish,gray,greenish or reddish)",No,"هذا معدن الألبيت، صلادته 6-6.5، لمعانه زجاجي إلى لؤلؤي، مخدشه أبيض، لديه انفصام تام، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+rutile,Rutile,روتيل,Mineral,6-6.5,sub-metallic to adamantine,pale brown to yellowish ,distinct ,uneven to conchoidal,"reddish brown,red,yellow,black",No,"هذا معدن الروتيل، صلادته 6-6.5، لمعانه شبه فلزي إلى ألماسي، مخدشه بني باهت إلى أصفر، لديه انفصام واضح، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+zircon,Zircon,زركون,Mineral,7.5,"vitreous,adamantine or greasy",colorless,imperfect,uneven to conchoidal,"colorless,red,brown,green,gray,",No,"هذا معدن الزيركون، صلادته 7.5 ، لمعانه زجاجي ألماسي دهني، مخدشه شفاف، انفصامه غير كامل، ومكسره غير مستوٍ إلى محاري، لا يتفاعل مع حمض HCl."
+corundum,Corundum,كوروندوم,Mineral,9,vitreous to adamantine,white,none,uneven to conchoidal,many color,No,"هذا معدن الكوروندوم، صلادته 9، لمعانه زجاجي ألماسي، مخدشه أبيض، ليس لديه انفصام ، مكسره غير مستو إلى محاري، لا يتفاعل مع HCL."
+celestine,Celestine,سيليستين,Mineral,3-3.5,vitreous,white,perfect,uneven,"colorless,white,gray,blue,yellpwish,orange,reddish,brown",No,"هذا معدن السيليستين، صلادته 3-3.5، لمعانه زجاجي، مخدشه أبيض، لديه انفصام تام، مكسره غير مستو، لا يتفاعل مع HCL."
+malachite,Malachite,ملاكيت ,Mineral,3.5-4,fibrous(silky)/no crystal face(vitreous to adamantine),pale green,perfect,uneven to sub-conchoidal,green,strong,"هذا معدن الملاكيت، صلادته  3.0-4، لمعانه  حريري والالياف دقيقة، مخدشه  اخضر باهت، لديه انفصام تام، ومكسره غير مستو إلى شبه محاري، يتفاعل مع HCL"
+nephrite,Nephrite,نيفريت,Mineral,6-6.5,waxy or gerasy,white,none,splintery,spinach green,No,"هذا معدن النيفريت، صلادته  6-6.5، لمعانه شمعي دهني، مخدشه أبيض، ليس لديه انفصام، ومكسره انشطاري، لا يتفاعل مع حمض HCl."
+sphalerite,Sphalerite,سفاليريت,Mineral,3.5-4,resinous to adamantine,pale brown to colorless,perfect,cochoidal,"black,brown,yellow,red,green,gray,white",No,
+wollastonite,Wollastonite,ولاستونيت,Mineral,4.5-5,vitreous to pearly,white,perfect,uneven,"white,grayish,pale green,colorless",No,
+limonite,Limonite,ليمونيت,Mineral,4-5.5,"dull, earthy ",yellow-brown,none,uneven,"yellow,brown.blackish",No,
+rhodonite,Rhodonite,رودونيت,Mineral,5.5-6.5,crystal face(vitreous)/cleavage(pearly),white,perfect,uneven to conchoidal,"pink,rose red,brownish red",No,
+fluorite,Fluorite,فلوريت,Mineral,4,vitreous,white,perfect,cochoidal,"purple,green,colorless,white,yellow,pink,red,blue,black",No,
+orthoclase,Orthoclase,أورثوكليز,Mineral,6,vitreous to pearly,white,perfect,uneven to conchoidal,"reddish,colorless,yellow,gray,green",No,
+aragonite,Aragonite,أراغونيت,Mineral,3.5-4,resinous to vitreous,white,distinct ,subconchoidal,"white,colorless,gray,yellowish,green,blue,violet",No,
+dolomite,Dolomite,دولوميت,Mineral,3.5-4,vitreous to pearly,white,perfect,subconchoidal,"colorless,white,gray,pink,brown",weak,
+pectolite,Pectolite,بكتوليت,Mineral,4.5-5,vitreous or silky,white,perfect,uneven,"white ,grayish,colorless",No,
+grossular garnet,Grossular garnet,غارنيت جروسولار,Mineral,6.5-7,resinous to vitreous,white,none,uneven to conchoidal,"green,yellowish,brown,red,orange,pink,gray,black",No,
+tourmaline,Tourmaline,تورمالين,Mineral,7,vitreous,colorless,very indistinct,uneven to conchoidal,"black,brown,green,pink,yellow",No,
+apatite,Apatite,أباتيت,Mineral,5,vitreous to subresinous ,white,poor,uneven to conchoidal,"green,white,colorless,yellowish,bluish,reddish,brown,gray,purple",No,
+kyanite,Kyanite,كاينيت,Mineral,5.5-7,vitreous / on cleavege surface(pearly),colorless,perfect,uneven,"blue,white,gray,green,yellow,pink,black",No,
+cancrinite,Cancrinite,كانكرينيت,Mineral,5.0-6.0,"vitreous,pearly,greasy",colorless,perfect,uneven,"white,yellow,orange,pink,reddish,bluish",No,
+andradite,Andradite,أندراديت,Mineral,6.5-7,"Adamantine, Resinous, Dull",white,none,uneven to conchoidal,"Yellow, greenish yellow to emerald-green, dark green; brown, brownish red, brownish yellow; grayish black, black",No,
+almandine garnet,Almandine garnet,ألماندين غارنت ,Mineral,7-7.5,resinous to vitreous,white,none,uneven to conchoidal,"deep red,reddish brown,brownish black",No,
+barite,Barite,باريت,Mineral,3,resinous to vitreous,white,perfect,uneven,"colorless,white,gray,brown,reddish,bluish,greemish",No,
+galena,Galena,جالينا,Mineral,2.5,metallic,gray, perfect cubic,subconchoidal,gray,No,
+muscovite,Muscovite,موسكوفيت,Mineral,2.5,vitreous to pearly,white,perfect,uneven,"colorless,white, gray,yellow",No,
+calcite,Calcite,كالسيت,Mineral,3,vitreous to pearly,white,perfect,subconchoidal,"colorless,gray,brown,",strong,
+aegirine,Aegirine,أوجيرين,Mineral,6,vitreous,yellowish gray,good,uneven,"green,greenish black,bkack,reddish brown",No,
+eudialyte,Eudialyte,يودياليت,Mineral,5.0-6.0,vitreous to dull,white to pale pink,perfect,uneven,"yellowish,brownish,red,pink",No,
+azurite,Azurite,أزوريت,Mineral,3.5-4,vitreous to dull,paler blue,perfect,cochoidal,deep blue,strong,
+goethite,Goethite,جيوثايت,Mineral,5-5.5, crystal face (adamantine )/otherwise(dull),orange to brownish,perfect,uneven,"blackish brown,reddish,yellowish brown",No,
+epidote,Epidote,إيبيدوت,Mineral,6,vitreous,colorless,perfect,uneven,"yellowish green, green, brownish green,greenish black",No,
+chalcopyrite,Chalcopyrite,كالكوبيريت,Mineral,3.5-4,metallic,greenish black,poor,uneven to conchoidal,brassy yellow,No,
+analcime,Analcime,أنالسيم,Mineral,5-5.5,vitreous,white,very poor,subconchoidal,"colorless,gray,pink,yellow,greenish",No,
+natrolite,Natrolite,ناتروليت,Mineral,6.5,resinous to vitreous,white,indistinct,uneven to conchoidal,"green,brown,red,white,yellow,purple",No,
+amber,Amber,كهرمان,Rock,2.0 to 2.5,resinous ,warm-toned,none,cochoidal,golden-yellow or dark yellow-orange.,No,
+molybdenite,Molybdenite,موليبدينيت,Mineral,1-1.5,metallic,gray,perfect,uneven,gray,No,
+pyrrhotite,Pyrrhotite,بيروتيت,Mineral,3.5-4.5,metallic,dark to black,none,uneven to sub-conchoidal,bronze red ,No,
+prehnite,Prehnite,بريهنيت,Mineral,6-6.5,vitreous to waxy,white,distinct ,uneven,"light green,colorless,white,gray",No,
+siderite,Siderite,سيديريت,Mineral,4,"vitreous,pearly,silky",white,perfect rhombohedral,uneven,"gray,brown,greenish,reddish,black ",weak,
+creedit,Creedit,كريدت,Mineral,3.5-4,vitreous,white,perfect,cochoidal,"colorless,white,violite,purple,orange",No,
+vivianite,Vivianite,فيفيانيت,Mineral,1.5-2.0,"vitreous, pearly, dull","Colourless to bluish white, quickly changing to dark blue or brown",perfect,fibrous,"Colourless and transparent when fresh, quickly turning pale to deep blue, greenish-blue or bluish-green.",No,
+titanite,Titanite,تيتانيت,Mineral,5-5.5,resinous to subadamantine,white,distinct ,uneven to sub-conchoidal,"green,brown,gray,reddish",No,
+elbaite,Elbaite,إلبيت,Mineral,7-7.5,resinous to vitreous,white,indistinct,uneven to conchoidal,"red,pink,blue,yellow",No,
+fluorapatite,Fluorapatite,فلورأباتيت,Mineral,5,vitreous,white,poor,uneven,"white,green,blue,brown",No,
+garnet,Garnet,غارنيت,Mineral,6.5-7,vitreous,white,none,cochoidal to subconchoidal,"deep red,green,yellow,brown,black ",No,
+halite,Halite,هاليت (ملح صخري),Mineral,2,vitreous,white,perfect,uneven to conchoidal,"white,colorless,orange",No,
+talc,Talc,تالك,Mineral,1,"resinous to pearly, grwasy",white,perfect,uneven,"pale to dark green,gray,brownish,white",No,
+olivine,Olivine,أوليفين (زبرجد زيتوني),Mineral,6.5-7,vitreous,colorless,imperfect,cochoidal,"green,yellowish green",No,
+kaolinite,Kaolinite,كاولينيت,Mineral,2-2.5,dull or earthy,white,perfect,uneven,"white,colorless to yellowish,brownish",No,
