@@ -1,110 +1,111 @@
-# LithoLens
+# 🪨 LithoLens
 
-**Browser-based, on-device identification of rocks and minerals** from a single photo. LithoLens ranks likely species with a small neural classifier, optionally narrows candidates through short field-style questions grounded in a local mineral database, and presents results in a structured specimen view. After the app and models have been **cached from an initial load**, you can continue identifying specimens **without a network connection**—a practical fit for **field work** where signal is spotty or unavailable.
+**Identify rocks and minerals instantly from a photo — entirely in your browser, with no server required.**
 
-> **Status:** **Hackathon MVP**—built for **team development**, **demo**, and **judge review**, not as a certified analytical instrument. Identifications are **probabilistic** and intended for **education and field exploration**, not laboratory-grade mineralogy.  
-> **Distribution:** This repository is **not open source**. Source, assets, and branding are **proprietary** and shared only among the **team** and **judges** unless the authors explicitly publish otherwise.
+LithoLens uses a custom-trained neural network (exported to ONNX) that runs **on-device via ONNX Runtime Web (WASM)**. Upload or photograph a specimen and get ranked predictions with confidence scores. When results are ambiguous, an interactive Q&A narrows down candidates using real mineralogical properties (hardness, luster, streak, acid reaction). Everything — inference, history, export — works **offline after the first load**, making it practical for field use where connectivity is unreliable.
 
----
-
-## Highlights
-
-| Area | What you get today |
-|------|---------------------|
-| **Field / offline** | Classification runs **in the browser** with **ONNX Runtime Web** (WASM)—no live server round-trip for inference. After models and scripts are cached, you can keep identifying specimens **with no cellular or Wi‑Fi connection**, which matters on remote transects and in dead zones. |
-| **Workflow** | Separate **camera** and **gallery / file** entry points, optional **crop**, ranked predictions, and **Q&A** when top confidence is ambiguous. |
-| **Rejection** | Heuristic handling for **non-specimen** or **unlikely geological** inputs when auxiliary models and metadata are present. |
-| **Localization** | **English / Arabic** UI strings; mineral names follow `minerals_db.json` where Arabic labels exist. |
-| **Experience** | **Dark and light** themes, **local specimen history** (IndexedDB), **confidence notes**, and **PNG export / share / print** for the final card. |
+> **Hackathon MVP** — built for demo and judge review. Identifications are probabilistic and intended for education and field exploration, not laboratory-grade mineralogy.
 
 ---
 
-## How it works (conceptual)
-
-1. The user provides an image; the app may crop to the specimen region.
-2. A **mineral classifier** (`litholens_model.onnx`) produces a probability distribution over classes defined in `class_names.json`.
-3. If scores suggest a plausible mineral and pass basic sanity checks, the UI shows **top predictions** with confidence context.
-4. If discrimination is needed, **Q&A** uses properties in `minerals_db.json` (e.g. hardness, luster, streak, acid reaction) to filter candidates.
-5. A **final specimen sheet** summarizes key properties; the user may save a history entry or export a card locally.
-
-Auxiliary **MobileNet v2** weights and ImageNet-derived metadata, when available, support **out-of-distribution** cues; they are optional and degrade gracefully if files are missing.
+## 🚀 Live Demo
 
 ---
 
-## Tech stack
+## ✨ Key Features
+
+| Feature | Description |
+|---|---|
+| **On-device AI inference** | Custom mineral classifier runs fully in the browser via ONNX Runtime Web — no API calls, no backend |
+| **Offline-capable** | After the first load, the app and models are cached; you can identify specimens with no internet connection |
+| **Smart Q&A disambiguation** | When top predictions are close, the app asks short field-style questions to narrow candidates |
+| **Specimen history** | Past identifications are saved locally (IndexedDB) and exportable as PNG cards |
+| **English / Arabic UI** | Full localization with Arabic mineral names where available |
+| **Dark & light themes** | Adapts to user preference |
+
+---
+
+## 🧠 How It Works
+
+1. User provides an image (camera or file upload); optional crop focuses on the specimen
+2. **`litholens_model.onnx`** — a custom-trained ONNX classifier — produces a probability distribution over mineral classes defined in `class_names.json`
+3. Top predictions are shown with confidence context and explanatory notes
+4. If the top scores are too close to call, **Q&A mode** filters candidates using properties from `minerals_db.json`
+5. A final **specimen card** summarizes key properties; the user can save it to history or export as PNG
+
+---
+
+## 🛠️ Tech Stack
 
 | Layer | Choice |
-|--------|--------|
-| UI | React 19, Vite 8 |
-| Inference | [ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/) (WASM) |
-| Styling | CSS design tokens (`index.css`) and component layout (`App.css`) |
+|---|---|
+| UI | React 19 + Vite |
+| AI Inference | [ONNX Runtime Web](https://onnxruntime.ai/docs/tutorials/web/) (WASM) — runs the custom-trained model in-browser |
+| Styling | CSS design tokens + component CSS |
+| Storage | IndexedDB (specimen history) |
+| Localization | Custom i18n (English / Arabic) |
 
 ---
 
-## Repository layout
+## 📁 Repository Structure
 
-```text
+```
 public/
-  litholens-logo.png
   model/
-    litholens_model.onnx      # Main classifier (required for real predictions)
-    class_names.json          # Class list + not_mineral index
-    minerals_db.json          # Per-mineral facts for UI + Q&A
-    mineral_arabic_names.json # Optional glossary for CSV → JSON tooling
-    mobilenetv2-7.onnx        # Optional OOD / man-made helper
-    imagenet_*.json           # Optional MobileNet metadata
+    litholens_model.onnx        # Main mineral classifier (required)
+    class_names.json            # Class labels + not_mineral index
+    minerals_db.json            # Per-mineral properties for display & Q&A
+    mineral_arabic_names.json   # Arabic name glossary
+    mobilenetv2-7.onnx          # Optional: out-of-distribution helper
 src/
-  App.jsx                     # Screens, ONNX sessions, crop canvas, Q&A flow
-  App.css
-  index.css
+  App.jsx                       # Main app: screens, ONNX sessions, Q&A flow
+  App.css / index.css
   main.jsx
-  i18n/strings.js             # UI copy (EN / AR)
+  i18n/strings.js               # UI copy (EN / AR)
   lib/
-    specimenHistory.js       # IndexedDB history helpers
-    exportCard.js              # PNG specimen card rendering
-    confidenceExplain.js       # Human-readable confidence bullets
+    specimenHistory.js          # IndexedDB history helpers
+    exportCard.js               # PNG specimen card renderer
+    confidenceExplain.js        # Human-readable confidence bullets
 scripts/
-  csv_to_minerals_db.py       # UTF-8 CSV → minerals_db.json (preserves Arabic)
+  csv_to_minerals_db.py         # Converts UTF-8 CSV → minerals_db.json
 ```
 
 ---
 
-## Getting started
+## ▶️ Running Locally
 
-**Requirements:** Node.js 20+ (or an LTS version compatible with Vite 8) and npm.
+**Requirements:** Node.js 20+ and npm
 
 ```bash
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
-Open the URL Vite prints (typically `http://localhost:5173`).
-
-**Production build**
+Open the URL Vite prints — typically `http://localhost:5173`
 
 ```bash
+# Production build
 npm run build
-npm run preview   # optional: verify dist/ locally
-```
 
-**Lint**
+# Preview production build locally
+npm run preview
 
-```bash
+# Lint
 npm run lint
 ```
 
+> **Model files:** ONNX and JSON assets live under `public/model/` and are served from `/model/...` at runtime. They are included in the repo.
+
 ---
 
-## Models and data
+## 🏋️ Model & Data
 
-Place ONNX and JSON assets under `public/model/` so they are served from `/model/...` at runtime.
+The classifier was trained on a labeled geological dataset (`geology_dataset.xlsx`), then exported to ONNX format (`litholens_model.onnx`). Class labels are stored in `class_names.json` and must match the model's output dimension.
 
-| File | Role |
-|------|------|
-| `class_names.json` | Must align with the output dimension of `litholens_model.onnx`. Includes a **not-mineral** (or equivalent) slot used in rejection logic. |
-| `minerals_db.json` | Object keyed by **the same classifier labels** (except synthetic keys). Drives display names, Arabic names where present, categories, and Q&A property matching. |
-
-**Rebuilding `minerals_db.json` from CSV** (UTF-8 export, e.g. “CSV UTF-8” from Excel):
+**Rebuilding `minerals_db.json` from CSV:**
 
 ```bash
 python3 scripts/csv_to_minerals_db.py \
@@ -113,53 +114,8 @@ python3 scripts/csv_to_minerals_db.py \
   --out public/model/minerals_db.json
 ```
 
-Column expectations and legacy key mapping (e.g. `credit` ← `creedit`) are documented in `scripts/csv_to_minerals_db.py`.
-
 ---
 
-## ONNX Runtime Web (operational notes)
-
-- The Vite build splits **vendor** and **ort** chunks; WASM binaries load at runtime and dominate first-load size.
-- The first inference may **warm up** the session; the UI surfaces a loading state during model preparation.
-- For **offline** demos after first load, ship the full `dist/` output together with `public/model/` and ensure the host serves `.wasm` and `.onnx` with sensible caching headers if repeat visits matter.
-
----
-
-## Client preferences (MVP)
-
-| Key | Purpose |
-|-----|---------|
-| `litholens-lang` | `en` or `ar` for UI language. |
-| `litholens-theme` | `dark` or `light` for color theme. |
-
----
-
-## Future work
-
-The items below are **internal roadmap ideas** for the team—not commitments or a public feature backlog.
-
-- **Progressive Web App** — `manifest.json`, installability, and cache-first static assets (and optionally cached models) after first successful load.
-- **Richer history** — Open a saved identification from history, attach user notes, and export or compare entries.
-- **Themed export** — Match PNG specimen cards to the active light/dark theme (export is currently a fixed dark-branded layout).
-- **Trust and safety copy** — Short, prominent disclaimer that the tool is educational; optional “clear cached data” control for shared devices.
-- **Deeper accessibility** — Focus management and traps in dialogs, broader `aria-*` coverage, and audited keyboard paths through crop and Q&A.
-- **Comparison mode** — Side-by-side property tables for two minerals or two saved runs.
-- **User feedback loop** — Optional, consent-based correction capture (“actual mineral was X”) for future dataset or model improvements.
-- **Engineering hardening** — Vitest / Playwright smoke tests, error boundaries around WASM session creation, and documented training → ONNX export steps (opset, input name, resolution, normalization).
-- **Desktop polish** — Drag-and-drop import, keyboard shortcuts, and adaptive layout for large crop canvases.
-
-If the product later ships more broadly, prioritize **in-browser inference** and **offline-friendly deployment** unless requirements change.
-
----
-
-## License and distribution
-
-**All rights reserved.** LithoLens (including this source tree, bundled or referenced model artifacts where applicable, and branding) is **proprietary** and **not licensed for public use, redistribution, or modification**. Access is limited to the **authoring team** and **hackathon judges** for evaluation unless a separate written agreement says otherwise.
-
-A `LICENSE` file may be added later for **internal or sponsor paperwork**; unless that file explicitly grants open-source terms, nothing in this repository should be read as permission to copy or republish the work.
-
----
-
-## Acknowledgments
+## 🙏 Acknowledgments
 
 Built with [Vite](https://vitejs.dev/), [React](https://react.dev/), and [ONNX Runtime Web](https://onnxruntime.ai/).
