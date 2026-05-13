@@ -7,4 +7,14 @@ export default defineConfig({
     exclude: ['onnxruntime-web'],
   },
   assetsInclude: ['**/*.onnx', '**/*.wasm'],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('onnxruntime-web')) return 'ort';
+          if (id.includes('node_modules')) return 'vendor';
+        }
+      }
+    }
+  }
 })
